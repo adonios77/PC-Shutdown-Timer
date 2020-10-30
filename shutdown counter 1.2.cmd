@@ -42,8 +42,8 @@ echo            ( Total in minutes: %totalM% minutes )
 
 :ERROR
 if /i %total% EQU 0 color ce & echo. & echo. & echo        WARNING! The values must be greater than 0 & echo. & echo. & echo         Redirecting you to timer values again... & echo. & echo. & TIMEOUT /t 10 && goto :SET
-
 echo.
+
 :COUNTER
 color 5e
 echo.
