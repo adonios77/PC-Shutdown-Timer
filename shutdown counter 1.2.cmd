@@ -31,7 +31,7 @@ rem set /p SS=Set the Seconds:
 set /a total=(%HH%*3600)+(%MM%*60)+(%SS%*1)
 set /a totalM=(%total%/60)
 
-: START
+:START
 cls
 mode con: cols=59 lines=20
 color 4e
