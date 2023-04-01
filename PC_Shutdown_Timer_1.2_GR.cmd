@@ -1,4 +1,3 @@
-:: This is a PC shutdown timer. (wroted and developed by adonios77) 
 
 :: This is a PC shutdown timer. (wroted and developed by adonios77) 
 
@@ -52,7 +51,7 @@ echo  ή κλείστε αυτό το παράθυρο γιά να τερματ�
 echo.
 @TIMEOUT /t %total% /nobreak
 :SHUTDOWN
-@echo ()
+@echo (♫)
 cls
 color ce
 mode con: cols=59 lines=10
